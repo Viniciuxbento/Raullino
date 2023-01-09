@@ -24,8 +24,10 @@
         body{
             background: url(background.webp) no-repeat ;
             background-size: cover;
+            background-attachment: fixed;
             margin:0px;
             padding:0px;
+            padding-bottom: 100px;
         }
         header{
             background-color: white;
@@ -72,10 +74,24 @@
             width: 100%;
             
         }
-        .centro{
+        .imagens{
+            width: 500px;
+            height: 500px;
             text-align: center;
-            margin: 0;
+            border:10px solid rgba(0, 0, 0, 0.541);
+            border-radius: 5px;
         }
+        .desc{
+            font-family: nav;
+            font-size: 30px;
+            background-color: rgba(255, 255, 255, 0.753);
+            margin-left: 350px;
+            margin-right: 350px;
+            text-align: center;
+            border-radius: 5px;
+        
+        }
+        
     </style>
 </head>
 <body>
@@ -90,7 +106,16 @@
         
     </header>
     <article>
-        <p><img src="logo-placa.png" alt=""></p>
+       <p><img class="imagens" src="obra-ida.jfif" alt=""></p>
+       <p class="desc">"Casa de dosi pisos, com quarto subterrâneo"</p>
+    </article>
+    <article>
+        <p><img class="imagens" src="obra-igreja.jfif" alt=""></p>
+        <p class="desc">""Obra comunitária, feita pela equipe Raullino em prol de ajudar a comunidade""</p>
+    </article>
+    <article>
+        <p><img class="imagens" src="obra-morro.jfif" alt=""></p>
+        <p class="desc">"Obra feita, com revestimento de tijolos à vista"</p>
     </article>
     <footer>
         <p>Criado e desenvolvido por Vinicius Bento.</p>
