@@ -57,6 +57,10 @@
             display: block;
             text-align: center;
         }
+         .centro{
+            text-align: center;
+            margin: 0;
+        }
         a:hover{
             color: gray;
             box-shadow: 2px 2px 5px black;
@@ -75,16 +79,34 @@
             
         }
        .h1{
-        text-align: center;
+       
         font-family: nav;
         font-size: 100px;
+        background-color: rgba(211, 211, 211, 0.596);
        }
        .map{
-        text-align: center;
-        border: 5px solid rgba(0, 0, 0, 0.637);
-        position: relative;
-        left: 380px;
+        text-align: center; border: 5px solid rgba(0, 0, 0, 0.637);
+        background: url(mapa.jpg);
+        padding: 100px;
+        border: 6px solid black;
+        border-radius: 10px;
+        
        }
+       article{
+     
+        padding-bottom: 50px;
+        text-align: center;
+       }
+       .link{
+            width: 50px;
+            height: 50px;
+            
+            border-radius: 30px;
+            
+        }
+        .alin{
+            text-align: center;
+        }       
         
     </style>
 </head>
@@ -99,13 +121,19 @@
         </nav>
         
     </header>
+    <section >
+          
+        <nav class="alin">
+            <a href="https://contate.me/raullinoconstrucoes"><img class="link" src="whasapp.png" alt=""></a>
+            <a href="https://www.instagram.com/ricardoalexandre.goncalves/"><img class="link" src="logo-instagram.jpg" alt=""></a>
+            <a href="https://www.facebook.com/ricardo.alexandregoncalves.7"><img class="link" src="logo-facebook.jpg" alt=""></a>
+        </nav>
+    </section>
     <article>
         <h1 class="h1">Nossa localização</h1>
-        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28177.463422141907!2d-48.659338562527616!3d-28.018884290473622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9526d36801ac7be3%3A0x58da8b2ae9529cfd!2sMercearia%20Tia%20Ivete!5e0!3m2!1spt-BR!2sbr!4v1673304642521!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p><iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28177.463422141907!2d-48.659338562527616!3d-28.018884290473622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9526d36801ac7be3%3A0x58da8b2ae9529cfd!2sMercearia%20Tia%20Ivete!5e0!3m2!1spt-BR!2sbr!4v1673304642521!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
     </article>
-    <footer>
-        <p>Criado e desenvolvido por Vinicius Bento.</p>
-    </footer>
+    
 
     
 </body>
